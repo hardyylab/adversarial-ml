@@ -132,22 +132,7 @@ Dadhwal, H., de Abreu, M., Parvizi, N., & Saha, S. (2026). *Benchmarking the adv
 
 https://doi.org/10.1016/j.array.2025.100664
 
-## Acknowledgments
-
-We acknowledge the Canadian Institute for Cybersecurity at the University of New Brunswick for developing and making the CIC-IDS2017 dataset available for research.
-
-This research was conducted collaboratively by the authors listed above, with academic supervision from Dr. Sajal Saha at the University of Northern British Columbia.
-
-### My Contributions
-
-I contributed to the research methodology, experimental implementation, model evaluation, and preparation of the manuscript for this study.
-
-For the complete author contribution breakdown, refer to the CRediT authorship statement in the published article.
-
-
----
-
-## BibTeX
+### BibTeX
 
 ```bibtex
 @article{dadhwal2026benchmarking,
@@ -162,6 +147,18 @@ For the complete author contribution breakdown, refer to the CRediT authorship s
   url       = {https://doi.org/10.1016/j.array.2025.100664}
 }
 ```
+
+## Acknowledgments
+
+We acknowledge the Canadian Institute for Cybersecurity at the University of New Brunswick for developing and making the CIC-IDS2017 dataset available for research.
+
+This research was conducted collaboratively by the authors listed above, with academic supervision from Dr. Sajal Saha at the University of Northern British Columbia.
+
+## My Contributions
+
+I contributed to the research methodology, experimental implementation, model evaluation, and preparation of the manuscript for this study.
+
+For the complete author contribution breakdown, refer to the CRediT authorship statement in the published article.
 
 ---
 

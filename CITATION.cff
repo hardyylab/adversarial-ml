@@ -16,7 +16,7 @@ authors:
   - family-names: Saha
     given-names: Sajal
 
-repository-code: https://github.com/hardyylab/adversarial-ml-ddos-detection
+repository-code: https://github.com/hardyylab/adversarial-ml
 
 preferred-citation:
   type: article
@@ -31,6 +31,8 @@ preferred-citation:
     - family-names: Saha
       given-names: Sajal
   journal: Array
-  volume: "29"
   year: 2026
+  volume: "29"
+  start: "100664"
+  publisher: {name: Elsevier}
   doi: 10.1016/j.array.2025.100664
