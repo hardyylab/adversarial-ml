@@ -42,7 +42,7 @@ Feature reduction was performed using Pearson correlation analysis and Extra Tre
 
 ![Top 10 features](assets/feature-importance.png)
 
-*Figure 2. Ten selected features ranked using the Extra Trees Classifier.*
+*Figure 2. Ten selected features ranked using the Extra Trees Classifier. Source: Generated from the original experimental notebook associated with Dadhwal et al., Array (2026).*
 
 ### 2. Machine Learning Models
 
@@ -84,7 +84,7 @@ The retrained models were then evaluated under increasing perturbation strengths
 
 ![Clean vs adversarial accuracy](assets/clean-vs-adversarial.png)
 
-*Figure 3. Comparison of model accuracy on clean and FGSM-perturbed samples in the initial evaluation.*
+*Figure 3. Comparison of model accuracy on clean and FGSM-perturbed samples in the initial evaluation. Source: Generated from the original experimental notebook associated with Dadhwal et al., Array (2026).*
 
 The experiments demonstrated that high classification performance on clean traffic does not necessarily translate into robustness against adversarial perturbations.
 
@@ -94,7 +94,7 @@ Different model architectures exhibited substantially different levels of sensit
 
 ![FGSM robustness comparison](assets/fgsm-robustness.png)
 
-*Figure 4. F1-score comparison across the stronger FGSM perturbation levels evaluated in the study.*
+*Figure 4. F1-score comparison across the stronger FGSM perturbation levels evaluated in the study. Source: Generated from the original experimental notebook associated with Dadhwal et al., Array (2026).*
 
 Under the evaluated conditions, the published results showed that boosting-based ensemble models generally maintained stronger robustness than several alternative classifiers.
 
@@ -116,12 +116,13 @@ The study focuses on the CIC-IDS2017 dataset and FGSM-based adversarial evaluati
 
 Results should be interpreted within the study's original data preparation, adversarial training, and evaluation procedures rather than as evidence of universal robustness.
 
-## Data and Code Availability
+## Research Materials and Availability
 
-**Dataset:** [CIC-IDS2017 — Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html)
+This repository provides supplementary documentation and selected experimental visualizations accompanying our peer-reviewed publication in Array (Elsevier, 2026).
 
-**Source code:** The original experimental notebook and implementation are not publicly released in this repository.
+The original experimental implementation was developed using Python, scikit-learn, PyTorch, and gradient-boosting libraries, with experiments conducted using Google Cloud infrastructure. Source code and datasets are not distributed through this repository.
 
+The CIC-IDS2017 dataset can be accessed through the [CIC-IDS2017 — Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/ids-2017.html).
 
 ## Citation
 
@@ -133,7 +134,34 @@ https://doi.org/10.1016/j.array.2025.100664
 
 ## Acknowledgments
 
+We acknowledge the Canadian Institute for Cybersecurity at the University of New Brunswick for developing and making the CIC-IDS2017 dataset available for research.
+
 This research was conducted collaboratively by the authors listed above, with academic supervision from Dr. Sajal Saha at the University of Northern British Columbia.
+
+### My Contributions
+
+I contributed to the research methodology, experimental implementation, model evaluation, and preparation of the manuscript for this study.
+
+For the complete author contribution breakdown, refer to the CRediT authorship statement in the published article.
+
+
+---
+
+## BibTeX
+
+```bibtex
+@article{dadhwal2026benchmarking,
+  title     = {Benchmarking the adversarial resilience of machine learning models for {DDoS} detection},
+  author    = {Dadhwal, Harsh and de Abreu, Mateus and Parvizi, Nazanin and Saha, Sajal},
+  journal   = {Array},
+  volume    = {29},
+  pages     = {100664},
+  year      = {2026},
+  publisher = {Elsevier},
+  doi       = {10.1016/j.array.2025.100664},
+  url       = {https://doi.org/10.1016/j.array.2025.100664}
+}
+```
 
 ---
 

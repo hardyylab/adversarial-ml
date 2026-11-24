@@ -1,0 +1,36 @@
+
+cff-version: 1.2.0
+message: >-
+  If you use or reference this research, please cite
+  the peer-reviewed journal article listed below.
+
+title: "Adversarial ML for DDoS Detection - Research Companion"
+
+authors:
+  - family-names: Dadhwal
+    given-names: Harsh
+  - family-names: de Abreu
+    given-names: Mateus
+  - family-names: Parvizi
+    given-names: Nazanin
+  - family-names: Saha
+    given-names: Sajal
+
+repository-code: https://github.com/hardyylab/adversarial-ml-ddos-detection
+
+preferred-citation:
+  type: article
+  title: "Benchmarking the adversarial resilience of machine learning models for DDoS detection"
+  authors:
+    - family-names: Dadhwal
+      given-names: Harsh
+    - family-names: de Abreu
+      given-names: Mateus
+    - family-names: Parvizi
+      given-names: Nazanin
+    - family-names: Saha
+      given-names: Sajal
+  journal: Array
+  volume: "29"
+  year: 2026
+  doi: 10.1016/j.array.2025.100664
