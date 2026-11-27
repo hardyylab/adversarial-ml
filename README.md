@@ -4,7 +4,7 @@
 
 **Authors:** Harsh Dadhwal, Mateus de Abreu, Nazanin Parvizi, Sajal Saha
 
-**Publication:** [Read the paper](https://doi.org/10.1016/j.array.2025.100664)
+**Publication:** [Read the journal article](https://doi.org/10.1016/j.array.2025.100664)
 
 ## Overview
 
